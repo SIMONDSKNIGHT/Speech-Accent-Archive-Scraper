@@ -151,3 +151,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 /mp3s
+/40_SNR
+/30_SNR
+/20_SNR
+/10_SNR
+/0_SNR
+/-10_SNR
+/base_model_transcription
+Doc7.docx
+~$Doc7.docx
