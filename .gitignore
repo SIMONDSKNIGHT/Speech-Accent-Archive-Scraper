@@ -157,6 +157,15 @@ cython_debug/
 /10_SNR
 /0_SNR
 /-10_SNR
-/base_model_transcription
+/base_model_transcription mp3s
 Doc7.docx
 ~$Doc7.docx
+
+/BACKUPS
+/base_model_transcription 40_SNR
+/base_model_transcription 30_SNR
+/base_model_transcription 20_SNR
+/base_model_transcription 10_SNR
+/base_model_transcription 0_SNR
+/base_model_transcription -10_SNR
+speakers backup.csv
