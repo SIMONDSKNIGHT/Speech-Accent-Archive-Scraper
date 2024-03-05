@@ -23,7 +23,8 @@ class WERCalculator:
                 with open(file_path, "r") as file:
                     transcribed_text = file.read()
                     wer = jiwer.wer(self.stock_phrase, transcribed_text, truth_transform=transformation, hypothesis_transform=transformation)
-                    results.append({"file_name": file_name, "wer": wer})
+                    transcription_length = len(transcribed_text.split())
+                    results.append({"file_name": file_name, "wer": wer, "transcription_length": transcription_length})
         return pd.DataFrame(results)
 
 # Example usage
